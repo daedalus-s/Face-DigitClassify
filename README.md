@@ -1,6 +1,6 @@
 # Face-DigitClassify
 
-This project implements image classification models for face recognition and digit classification using TensorFlow and Keras.
+This project implements image classification models:KNN, Perceptron and Naive Bayes for face recognition and digit classification using TensorFlow and Keras.
 
 ## Project Overview
 
@@ -26,24 +26,9 @@ pip install tensorflow keras numpy matplotlib opencv-python
 
 The face recognition model is implemented in `face_recognition.py`. It uses a CNN architecture to classify faces into different categories.
 
-### Dataset
-
-The face dataset should be organized in the following structure:
-face_dataset/
-person1/
-image1.jpg
-image2.jpg
-...
-person2/
-image1.jpg
-image2.jpg
-...
-...
 ### Usage
 
 To train and evaluate the face recognition model:
-
-python
 python face_recognition.py
 
 ### Digit Classification
